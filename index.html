@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBDES</title>
+    <link rel="stylesheet" href=".//Styles/style.css">
+</head>
+
+<body>
+    <div class="site-content">
+        <video autoplay loop muted id="myVideo">
+            <source src="video/vids.mp4" type="video/mp4" />
+        </video>
+    </div>
+
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <a href="#">LA-PRODUCTION<br>
+                SCRATCH TO SEE THE CONTENT!</a>
+            </div>
+        </div>
+        <div class="hero-copy">
+            <h1>Embrace</h1>
+            <p>Captured moments, lasting bonds, unforgettable laughs. <br>This isn't just a campus; <br>it's a snapshot of
+                college life,<br> a treasure of memories waiting to be embraced.</p>
+
+            <!-- Add three buttons with onclick events to play different videos -->
+            <button onclick="playVideo('vids.mp4')">TW24</button>
+            <button onclick="playVideo('vid2.mp4')">TW21</button>
+            <button onclick="playVideo('vid3.mp4')">TW01</button>
+        </div>
+    </div>
+    <canvas id="draw"></canvas>
+
+    <script src=".//JS/script.js"></script>
+</body>
+
+</html>
